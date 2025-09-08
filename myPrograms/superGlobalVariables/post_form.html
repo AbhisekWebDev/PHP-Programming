@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST Example</title>
+</head>
+<body>
+    <h2>POST Form</h2>
+    <form action="process_post.php" method="POST">
+        <label for="item">Item Name:</label>
+        <input type="text" id="item" name="item_name"><br><br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="item_quantity"><br><br>
+        <textarea name="description" rows="4" cols="50" placeholder="Item Description"></textarea><br><br>
+        <input type="submit" value="Submit via POST">
+    </form>
+</body>
+</html>

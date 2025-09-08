@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET Example</title>
+</head>
+<body>
+    <h2>GET Form</h2>
+    <form action="process_get.php" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="useremail"><br><br>
+        <input type="submit" value="Submit via GET">
+    </form>
+
+    <hr>
+
+    <h2>GET via URL</h2>
+    <p>Click the link to pass parameters in the URL:</p>
+    <p><a href="process_get.php?product=Laptop&price=1200">View Product Details</a></p>
+</body>
+</html>

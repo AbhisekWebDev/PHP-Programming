@@ -1,0 +1,7 @@
+Difference Between include, require, include_once, and require_once
+
+Statement	    Behavior on Failure	    Multiple Inclusions Allowed?	    Description
+include	        Warning, continues	                Yes	                    Includes and evaluates the specified file. Execution continues even if the file is missing.
+require	        Fatal error, halts	                Yes	                    Includes and evaluates the specified file. Script stops if the file is missing.
+include_once	Warning, continues	                No	                    Like include, but the file will be included only once, preventing redundant inclusion.
+require_once	Fatal error, halts	                No	                    Like require, but ensures the file is included only once. Prevents multiple inclusions and stops execution if missing.

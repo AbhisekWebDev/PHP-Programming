@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial="1.0">
+    <title>REQUEST Example</title>
+</head>
+<body>
+    <h2>REQUEST Form (GET)</h2>
+    <form action="process_request.php" method="GET">
+        <label for="get_param">GET Parameter:</label>
+        <input type="text" id="get_param" name="get_value"><br><br>
+        <input type="submit" value="Submit via GET">
+    </form>
+
+    <h2>REQUEST Form (POST)</h2>
+    <form action="process_request.php" method="POST">
+        <label for="post_param">POST Parameter:</label>
+        <input type="text" id="post_param" name="post_value"><br><br>
+        <input type="submit" value="Submit via POST">
+    </form>
+
+    <hr>
+    <p>Also, try navigating to: <a href="process_request.php?url_param=hello_world">process_request.php?url_param=hello_world</a></p>
+</body>
+</html>
